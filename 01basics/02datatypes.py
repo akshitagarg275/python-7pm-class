@@ -63,12 +63,30 @@
 # print(type(marks))
 
 # dictionary => {key: value}
-stu = {
-    "fName": "John",
-    "lName": "Doe",
-    "age": 23,
-    "class": ["python", "web"]
-}
+# stu = {
+#     "fName": "John",
+#     "lName": "Doe",
+#     "age": 23,
+#     "class": ["python", "web"]
+# }
 
-print(stu)
-print(type(stu))
+# print(stu)
+# print(type(stu))
+
+
+# TODO: range
+# range(start_index, end_index, step)
+# start_index is inclusive
+# end_index is exclusive
+# step is optional
+
+# nums = list(range(1, 11))
+# print(nums)
+# print(type(nums))
+
+# evens = tuple(range(0,11,2))
+# print(evens)
+# print(type(evens))
+
+multiple_of_3 = list(range(0,31,3))
+print(multiple_of_3)
