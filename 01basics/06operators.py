@@ -101,7 +101,70 @@ They directly work on the bits
 
 # print(5 << 1)
 
-print(5 >> 1)
+# print(5 >> 1)
+
+
+# TODO: membership operator (in)
+nums = [1,2,3,4]
+# print(1 in nums)
+# print(1 not in nums)
+
+name = "John"
+# print('n' in name)
+
+
+# TODO: identity operator(is)
+# It checks whether the object variable
+# is pointing to same memory location or not
+a = 5
+# print(id(a))
+# print(a)
+
+# b = 5
+# print(id(b))
+
+# print(a is b)
+
+# b = 4
+
+# b = a
+# print(b)
+
+# b = 3
+# print("after b: ", b)
+# print("after a: ",a)
 
 
 
+# list1 = [1,2,3]
+
+# list2 = list1
+
+# print("before list1: ",list1)
+# print("before list2: ",list2)
+# print(list1 is list2)
+
+# list2[0] = 99
+
+# print("after list1: ",list1)
+# print("after list2: ",list2)
+
+
+# list3 = [1,2,3]
+# list4 = [1,2,3]
+
+# print(list3 == list4)
+# print(list3 is list4)
+
+# list4[0] = 99
+# list4[1] = 89
+
+# print(list3)
+# print(list4)
+
+
+# name = "John"
+# print(id(name))
+# name = "Jenny"
+# print(id(name))
+# print(name)
