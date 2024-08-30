@@ -131,7 +131,6 @@ if isSignedIn:
     if isCart:
         if isPay:
             print("You can make the purchase!")
-
         else:
             print("Payment method is not correct")
     else:
