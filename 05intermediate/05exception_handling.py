@@ -67,7 +67,7 @@ def func():
 
 # TODO: raising an exception
 
-name = "John"
+# name = "John"
 
-if name == "John":
-    raise "John is not allowed"
+# if name == "John":
+#     raise "John is not allowed"
