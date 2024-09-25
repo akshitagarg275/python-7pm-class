@@ -53,4 +53,11 @@ def fact(num):
         return num
     return fact(num - 1) + fact(num - 2)
 
-print(fact(3))
+# print(fact(3))
+
+# TODO: raise to pow
+
+'''
+num = 2, pow = 3
+2*2*2 = 8
+'''
