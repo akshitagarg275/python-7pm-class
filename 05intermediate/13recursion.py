@@ -60,4 +60,16 @@ def fact(num):
 '''
 num = 2, pow = 3
 2*2*2 = 8
+
+raiseToPow(num,pow)
+
+Base Case:
+if pow ==0 :
+    return 1
 '''
+
+def raiseToPow(num,pow):
+    if pow == 0:
+        return 1
+    
+    return num * raiseToPow(num, pow-1)
