@@ -10,5 +10,5 @@ class Student:
         return f"{self.__id}"
 
 obj = Student("Lokesh", 12)
-# print(obj.__id)
+# print(obj.__id) 
 print(obj.getId())
